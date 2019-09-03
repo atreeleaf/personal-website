@@ -4,7 +4,7 @@ import Body from './Body.jsx';
 import Footer from './Footer.jsx'
 
 function Wrapper(){
-  const [headerState, updateHeader] = useState({header: 'Andrew Tang'});
+  const [currentTab, updateHeader] = useState({currentTab: 'Andrew Tang'});
   
   return (
   <div id = 'wrapper'>
